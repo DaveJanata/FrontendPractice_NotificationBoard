@@ -1,3 +1,34 @@
 *{
     border: 1px black dashed;
 }
+a {
+    border: 2px blue solid;
+}
+
+body{
+    display: block;
+}
+
+header{
+    height: fit-content;
+}
+ 
+.container{
+    position: fixed;
+    left: auto;
+    display: flex;
+    justify-content: center;
+} 
+
+.notification{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 400px;
+}
+.notification h3, .notification a, .notification h4{
+    width: fit-content;
+    display: inline-block;
+}
+/* .notification a{
+    width: fit-content;
+} */
