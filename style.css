@@ -1,22 +1,82 @@
-*{
-    border: 1px black dashed;
+/* *{
+    border: black 1px dashed;
+} */
+.app{
+    min-width: 800px;
+    max-width: 900px;
+    display: flex;
+    flex-flow: column nowrap;
 }
-a {
-    border: 2px blue solid;
+header{
+    display: inline-flex;
+}
+.container{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    min-width: 800px;
+    max-width: 900px;
+}
+.notification{
+    display:flex;
+    width: 85%; 
+    min-height: 44px;
+    flex-flow:row nowrap;
+    background-color: hsl(211, 68%, 94%);
+    margin-top: 5px;
+    padding: 7px 7px;
+    border-radius: 8px;
+}
+.text-content{
+    display: block;
+    height: 50%;
 }
 .red-circle{
-    width: 6px;
-    height: 6px;
+    position: relative;
+    width: 5px;
+    height: 5px;
     border-radius: 50%;
     background-color: red;  
     border: 0px transparent solid;
 }
 
-.pfp {
-    height: 100%;
-    width: 100%;
-}fdafdas
-fdasdfdas
-fdasfdsa
-feFuncAfas
-feDropShadowfsda
+.pfp img{
+    width: 40px;
+}
+
+footer{
+    position: fixed;
+    bottom: 5px;
+}
+
+h1, h2, h3, h4, p{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+header h1, header h2{
+    display: flex;
+    align-items: center;
+}
+header h2{
+    margin-left: auto;
+}
+
+.notification h3, .notification h4, .message p{
+    padding-left: 7px;
+    font-weight: 500;
+}
+.notification h3{
+    font-size: 16px;
+    margin: 0px;
+}
+.notification h4{
+    color: hsl(219, 14%, 63%);
+    margin: 0px;
+    font-size: 12px;
+}
+.message p{
+    color: hsl(219, 12%, 42%);
+    font-size: 16px;
+}
+a{
+    font-weight: 800;
+}

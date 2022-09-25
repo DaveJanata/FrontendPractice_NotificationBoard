@@ -6,81 +6,83 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Notifications page</title>
 
 </head>
 <body>
-  <header>
-    <h1> Notifications 3 </h1> 
-    <h2> Mark all as read </h2>
-  </header>
-  <section class ="container">
-    <main>
-      <div class="notification" id="first">
-        <a class="pfp"><img src="./assets/images/avatar-mark-webber.webp"></a>
-        <div class="text-content">
-          <h3><a class="user">Mark Webber</a> reacted to your recent post <a class="post">My first tournament today!</a></h3>
-          <h4>1m ago</h4>
+  <div class="app">
+    <header>
+      <h1> Notifications 3 </h1> 
+      <h2> Mark all as read </h2>
+    </header>
+    <section class ="container">
+      <main>
+        <div class="notification" id="first">
+          <a class="pfp"><img src="./assets/images/avatar-mark-webber.webp"></a>
+          <div class="text-content">
+            <h3><a class="user">Mark Webber</a> reacted to your recent post <a class="post">My first tournament today!</a></h3>
+            <h4>1m ago</h4>
+          </div>
+          <div class="red-circle"></div>
         </div>
-        <div class="red-circle"></div>
-      </div>
-      <div class="notification">
-        <a class="pfp"><img src="./assets/images/avatar-angela-gray.webp"></a>
-        <div class="text-content">
-          <h3><a class="user">Angela Gray</a> followed you</h3>
-          <h4>5m ago</h4>
+        <div class="notification">
+          <a class="pfp"><img src="./assets/images/avatar-angela-gray.webp"></a>
+          <div class="text-content">
+            <h3><a class="user">Angela Gray</a> followed you</h3>
+            <h4>5m ago</h4>
+          </div>
+          <div class="red-circle"></div>
         </div>
-        <div class="red-circle"></div>
-      </div>
-      <div class="notification">
-        <a class="pfp"><img src="./assets/images/avatar-jacob-thompson.webp"></a>
-        <div class="text-content">
-          <h3><a class="user">Jacob Thompson</a> has joined your group <a class="group">Chess Club</a></h3>
-          <h4>1 day ago</h4>
+        <div class="notification">
+          <a class="pfp"><img src="./assets/images/avatar-jacob-thompson.webp"></a>
+          <div class="text-content">
+            <h3><a class="user">Jacob Thompson</a> has joined your group <a class="group">Chess Club</a></h3>
+            <h4>1 day ago</h4>
+          </div>
+          <div class="red-circle"></div>
         </div>
-        <div class="red-circle"></div>
-      </div>
-      <div class="notification">
-        <a class="pfp"><img src="./assets/images/avatar-rizky-hasanuddin.webp"></a>
-        <div class="text-content">
-          <h3><a class="user">Rizky Hasanuddin</a> sent you a private message</h3>
-          <h4>5 days ago</h4>
+        <div class="notification">
+          <a class="pfp"><img src="./assets/images/avatar-rizky-hasanuddin.webp"></a>
+          <div class="text-content">
+            <h3><a class="user">Rizky Hasanuddin</a> sent you a private message</h3>
+            <h4>5 days ago</h4>
+            <div class="message">
+              <p>
+                Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and 
+                I'm already having lots of fun and improving my game.
+              </p>
+            </div>
+          </div>
+          <div class="red-circle"></div>
         </div>
-        <div class="red-circle"></div>
-        <div class="message">
-          <p>
-            Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and 
-            I'm already having lots of fun and improving my game.
-          </p>
+        <div class="notification">
+          <a class="pfp"><img src="./assets/images/avatar-kimberly-smith.webp"></a>
+          <div class="text-content">
+            <h3><a class="user">Kimberly Smith</a> commented on your picture</h3>
+            <h4>1 week ago</h4>
+          </div>
+          <div class="red-circle"></div>
         </div>
-      </div>
-      <div class="notification">
-        <a class="pfp"><img src="./assets/images/avatar-kimberly-smith.webp"></a>
-        <div class="text-content">
-          <h3><a class="user">Kimberly Smith</a> commented on your picture</h3>
-          <h4>1 week ago</h4>
+        <div class="notification"> 
+          <a class="pfp"><img src="./assets/images/avatar-nathan-peterson.webp"></a>
+          <div class="text-content">
+            <h3><a class="user">Nathan Peterson</a> reacted to your recent post <a class="post">5 end-game strategies to increase your win rate</a></h3>
+            <h4>2 weeks ago</h4>
+          </div>
+          <div class="red-circle"></div>
         </div>
-        <div class="red-circle"></div>
-      </div>
-      <div class="notification"> 
-        <a class="pfp"><img src="./assets/images/avatar-nathan-peterson.webp"></a>
-        <div class="text-content">
-          <h3><a class="user">Nathan Peterson</a> reacted to your recent post <a class="post">5 end-game strategies to increase your win rate</a></h3>
-          <h4>2 weeks ago</h4>
+        <div class="notification"> 
+          <a class="pfp"><img src="./assets/images/avatar-anna-kim.webp"></a>
+          <div class="text-content">
+            <h3><a class="user">Anna Kim</a> left the group <a class="group">Chess Club</a></h3>
+            <h4>2 weeks ago</h4>
+          </div>
+          <div class="red-circle"></div>
         </div>
-        <div class="red-circle"></div>
-      </div>
-      <div class="notification"> 
-        <a class="pfp"><img src="./assets/images/avatar-anna-kim.webp"></a>
-        <div class="text-content">
-          <h3><a class="user">Anna Kim</a> left the group <a class="group">Chess Club</a></h3>
-          <h4>2 weeks ago</h4>
-        </div>
-        <div class="red-circle"></div>
-      </div>
-    </main>
-  </section>
-  
+      </main>
+    </section>
+  </div>
   
   <footer>
     <div class="attribution">
