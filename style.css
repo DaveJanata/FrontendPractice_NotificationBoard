@@ -4,31 +4,15 @@
 a {
     border: 2px blue solid;
 }
-
-body{
-    display: block;
+.red-circle{
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: red;  
+    border: 0px transparent solid;
 }
 
-header{
-    height: fit-content;
+.pfp {
+    height: 100%;
+    width: 100%;
 }
- 
-.container{
-    position: fixed;
-    left: auto;
-    display: flex;
-    justify-content: center;
-} 
-
-.notification{
-    display: flex;
-    flex-flow: column nowrap;
-    width: 400px;
-}
-.notification h3, .notification a, .notification h4{
-    width: fit-content;
-    display: inline-block;
-}
-/* .notification a{
-    width: fit-content;
-} */
