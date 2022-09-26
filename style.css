@@ -1,72 +1,106 @@
 /* *{
     border: black 1px dashed;
 } */
+
 .app{
-    min-width: 800px;
-    max-width: 900px;
+    min-width: 350px;
+    max-width: 750px;
+    max-height: 800px;
     display: flex;
     flex-flow: column nowrap;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    flex: 1 0.8 690px;
 }
 header{
     display: inline-flex;
+    margin: 2vh 0;
 }
 .container{
     display: flex;
     flex-flow: column nowrap;
-    align-items: center;
-    min-width: 800px;
-    max-width: 900px;
+    height: 600px;
+    min-width: 350px;
+    max-width: 750px;
+    background-color: white(210, 60%, 98%);
 }
 .notification{
+    margin-left: 50%;
+    transform: translateX(-50%);
     display:flex;
-    width: 85%; 
-    min-height: 44px;
-    flex-flow:row nowrap;
-    background-color: hsl(211, 68%, 94%);
+    width: 84%; 
+    background-color: hsl(210, 60%, 98%);
     margin-top: 5px;
-    padding: 7px 7px;
+    padding: 12px 15px;
     border-radius: 8px;
 }
 .text-content{
     display: block;
     height: 50%;
-}
-.red-circle{
-    position: relative;
-    width: 5px;
-    height: 5px;
-    border-radius: 50%;
-    background-color: red;  
-    border: 0px transparent solid;
-}
+    width: 90%;
 
+}
 .pfp img{
     width: 40px;
 }
-
+.commented-image img{
+    width: 40px;
+    float: right;   
+}
+.group{
+    color: hsl(219, 85%, 26%);
+}
+.post{
+    color: hsl(219, 12%, 42%);
+}
+.numNotifs{
+    margin-left: 0.4em;
+    background-color: hsl(219, 85%, 26%);
+    font-size: 14px;
+    color: white;
+    padding: 2px 10px;
+    border-radius: 4px;
+}
+/* FOOTER */
 footer{
     position: fixed;
     bottom: 5px;
 }
 
+/* Text in GENERAL */
 h1, h2, h3, h4, p{
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
+
+/* Text in HEADER */
 header h1, header h2{
+    margin-top: 0px;
+    margin-bottom: 0px;
     display: flex;
     align-items: center;
+    line-height: 1em;
+}
+header h1{
+    font-size: 20px;
+    margin-left: 5%;
 }
 header h2{
+    color: hsl(219, 14%, 63%);
+    font-size: 12px;
+    font-weight: 500;
+    margin-right: 5%;
     margin-left: auto;
 }
 
-.notification h3, .notification h4, .message p{
+.notification h3, .notification h4{
     padding-left: 7px;
     font-weight: 500;
 }
 .notification h3{
     font-size: 16px;
     margin: 0px;
+    width: fit-content;
+    margin-right: 0px;
 }
 .notification h4{
     color: hsl(219, 14%, 63%);
@@ -74,9 +108,25 @@ header h2{
     font-size: 12px;
 }
 .message p{
+    margin-left: 7px;
+    font-weight: 500;
+    box-sizing: border-box;
     color: hsl(219, 12%, 42%);
-    font-size: 16px;
+    font-size: 14px;
+    border: 1px solid hsl(219, 14%, 63%);
+    border-radius: 3px;
+    padding: 10px 15px;
 }
 a{
     font-weight: 800;
+}
+
+/* EXTRA */
+.red-circle{
+    position: relative;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: red;  
+    border: 0px transparent solid;
 }
