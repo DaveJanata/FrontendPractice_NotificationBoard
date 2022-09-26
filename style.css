@@ -5,7 +5,8 @@
 .app{
     min-width: 350px;
     max-width: 750px;
-    max-height: 800px;
+    min-height: 750px;
+    max-height: 900px;
     display: flex;
     flex-flow: column nowrap;
     margin-left: 50%;
@@ -132,4 +133,27 @@ a{
     left: 2px;
     bottom: 0px;
     font-size: 18px;
+}
+
+/* Hover states*/
+
+.user:hover, .post:hover, h2:hover{
+    color: hsl(219, 85%, 26%);
+    cursor: pointer;
+}
+.user:active, .post:active, h2:active{
+    color: hsl(219, 85%, 21%);
+}
+
+.message p:hover{
+    background-color: hsl(205, 33%, 90%);
+    cursor: pointer;
+}
+.message p:active{
+    background-color: hsl(205, 33%, 82%);
+    cursor: pointer;
+}
+
+.commented-image:hover{
+    cursor: pointer;
 }

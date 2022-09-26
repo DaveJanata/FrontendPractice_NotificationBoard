@@ -45,6 +45,7 @@ let handleAll = function() {
     for (let i = 0; i< notifArray.length; i++){
         setInactive(notifArray[i]); 
     }
+    document.body.getElementsByClassName('numNotifs')[0].innerHTML = countActiveNotifs();
 }
 // Set up eventListeners
 for (let i = 0; i< notifArray.length; i++){
