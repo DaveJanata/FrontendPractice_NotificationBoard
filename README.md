@@ -9,7 +9,6 @@ This is a solution to the [Notifications page challenge on Frontend Mentor](http
 - [Built with](#built-with)
 - [Author](#author)
 
-
 ### The challenge
 
 Users should be able to:
