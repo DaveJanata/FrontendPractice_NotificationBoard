@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Screenshot
 
-![assets\images\Finished_screenshot.jpg](assets\images\Finished_screenshot.jpg)
+![Finished notification board](./assets/images/Finished_screenshot.jpg)
 
 
 ### Links
